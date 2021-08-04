@@ -1,0 +1,9 @@
+.navigation{
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.wrapper-map{
+    max-width: 1280px;
+    margin: auto;
+}

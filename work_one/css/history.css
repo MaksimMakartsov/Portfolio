@@ -1,0 +1,86 @@
+.history {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img-history {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-history {
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.img_history{
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.wrapper-section-team{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.title-team{
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 3px 2px #00000051;
+}
+
+.section-team {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+}
+
+.wrapper-team {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.team {
+    display: flex;
+    justify-content: center;
+}
+.img-team {
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgb(102, 102, 102);
+}
+.text-team {
+    max-width: 400px;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Otomanopee One', sans-serif;
+    letter-spacing: 5px;
+}

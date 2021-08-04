@@ -1,0 +1,179 @@
+.logo_header{
+    font-size: 50px;
+    font-family: 'Yomogi', cursive;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: relative;
+    animation-name: header, header_infin;
+    animation-duration: 5s, 3s;
+    animation-delay: 4s, 9s;
+    animation-iteration-count: 1, infinite;
+    font-weight: 700;
+}
+
+@keyframes header{
+   10%{
+       top:0;
+   }
+
+   20%{
+       top:300px;
+   }
+
+   30%{
+       transform: rotate(360deg);
+   }
+
+   40%{
+    top:300px;
+    }
+
+    50%{
+        top:300px;
+        transform: rotate(720deg);
+    }
+
+    60%, 90%{
+        top: 300px;
+        font-size: 3em;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+
+@keyframes header_max440{
+    10%{
+        top:0;
+    }
+ 
+    20%{
+        top:300px;
+    }
+ 
+    30%{
+        transform: rotate(360deg);
+    }
+ 
+    40%{
+     top:300px;
+     }
+ 
+     50%{
+         top:300px;
+         transform: rotate(720deg);
+     }
+ 
+     60%, 90%{
+         top: 300px;
+         font-size: 1.5em;
+     }
+ 
+     100%{
+         top: 0;
+     }
+ }
+
+ @keyframes header_infin{
+     from{
+         opacity: 1;
+     }
+
+     30%{
+         opacity: 0.7;
+         transform: rotate(-5deg);
+     }
+
+     50%{
+        opacity: 0.3;
+    }
+
+    70%{
+        opacity: 0.7;
+        transform: rotate(5deg);
+    }
+
+    100%{
+        opacity: 1;
+    }
+ }
+
+
+
+.wrapper-img_header{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.img_header{
+    max-width: 200px;
+    max-height: 200px;
+    animation-name: img-header, img-header_infin;
+    animation-duration: 4s, 3s;
+    animation-delay: 2s, 7s;
+    animation-iteration-count: 1, infinite;
+    animation-direction: normal, alternate;
+}
+
+@keyframes img-header{
+    50%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes img-header_infin{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+       transform: rotate(15deg);
+   }
+
+   100%{
+    transform: rotate(-15deg);
+}
+}
+
+
+
+.wrapper-link_header {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    max-width: 1280px;
+}
+
+.link_header {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.541);
+    font-family: 'Yomogi', cursive;
+    margin-bottom: 20px;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 3px 3px 5px #0000009a;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 5px;
+    width: 133px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.link_header:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    
+}

@@ -1,0 +1,192 @@
+@media (max-width: 1000px){
+    .text-history {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 900px){
+    .wrapper-form{
+        flex-wrap: wrap;
+    }
+
+    .svg-inline--fa {
+        transform: rotate(90deg);
+    }
+
+    .img_history{
+        max-width: 400px;
+    }
+
+    .img-team{
+        max-width: 350px;
+    }
+
+}
+
+@media(max-width:800px){
+    .logo_header{
+        font-size: 45px;
+    }
+
+    .img_header {
+        max-width: 150px;
+    }
+
+    .wrapper-shop{
+        min-width: 150px;
+    }
+
+    .img-product{
+        max-width: 100px;
+    }
+
+    .name-product {
+        font-size: 13px;
+    }
+
+    .history{
+        flex-wrap: wrap;
+    }
+
+    .img-history{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-team{
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 700px){  
+    /* footer */
+    .section-footer {
+        flex-direction: column;
+    }
+
+    .img-footer-soth_seti {
+        justify-content: flex-start;
+    }
+
+    .wrapper-soth{
+        margin-top: 10px;
+    }
+
+    .title-footer{
+        margin-top: 10px;
+    }
+
+    .text-footer{
+        display: inline-block;
+    }
+
+    .logo_header{
+        font-size: 35px;
+    }
+
+    .img-team{
+        max-width: 250px;
+    }
+
+    .text-team{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .link_header{
+        font-size: 10px;
+    }
+
+    .title_logo{
+        font-size: 10px;
+    }
+
+    .servise-title{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .servise-sub-title{
+        font-size: 15px;
+    }
+
+    .servise-text{
+        font-size: 12px;
+    }
+
+    .link-servise{
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .shans{
+        font-size: 20px;
+    }
+
+    .svg-inline--fa {
+        max-width: 30px;
+    }
+
+    .logo_header{
+        font-size: 25px;
+    }
+
+    .img_header {
+        max-width: 100px;
+    }
+
+    .shop {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .img-team{
+        max-width: 300px;
+    }
+
+    .section-team{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .title-team{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 440px){
+    .title-form{
+        font-size:10px;
+    }
+
+    .input{
+        max-width: 200px;
+    }
+
+    form{
+        max-width: 300px;
+        padding: 30px 0;
+    }
+
+    .shop {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .text-shop{
+        font-size: 10px;
+    }
+
+    .img_history{
+        max-width: 250px;
+    }
+
+    .logo_header{
+        animation-name: header_max440;
+        animation-duration: 5s;
+    }
+
+}
+
+
+
