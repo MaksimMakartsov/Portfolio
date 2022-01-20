@@ -173,7 +173,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
 }
 .item_link_education {
     display: flex;
@@ -203,9 +202,6 @@ header{
 .item_work {
     display: flex;
     justify-content: space-evenly;
-}
-
-.text_work {
 }
 
 .link_work{
